@@ -1,0 +1,180 @@
+a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: rgb(78, 78, 78);
+    font-size: 12px;
+}
+
+header {
+    background-color: #fafafa;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+#logo_search, #top_right {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+#top_right {
+    justify-content: space-between;
+    width: 120px;
+    margin:0px 40px;
+}
+
+#search_bar {
+    width: 625px;
+    height: 40px; 
+    margin-left: 20px;
+    border: 1px solid rgb(209, 209, 209);
+    box-shadow: 2px 2px 2px 0px rgba(227,227,227,1);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+#micro {
+    height: 25px;
+    margin-left: -35px;
+}
+
+nav {
+    margin-left: 150px;
+}
+
+nav li {
+    display: inline-block;
+    height: 25px;
+    padding: 5px 20px;
+}
+
+nav ul .selected {
+    font-weight: 700;
+    border-bottom: 3px solid #4387FD;
+}
+
+.blue {
+    color: #4387FD;
+}
+
+#left_side {
+    margin-left: 170px;
+    width: 700px;
+}
+
+#search_results {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    background-color: white;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+
+.title a {
+    font-size: 20px;
+    color: rgb(26, 13, 171);
+}
+
+.title a:hover {
+    text-decoration: underline;
+}
+
+.link {
+    padding-bottom: 5px;
+    font-size: 13px;
+    color: rgb(0, 102, 33)
+}
+
+.desc {
+    padding-bottom: 5px;
+    font-size: 13px;
+    color: rgb(106, 106, 106);
+}
+
+#other {
+    margin-left: -15px;
+    margin-top: 30px;
+    width: 650px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08)
+}
+
+#other td {
+    vertical-align: middle;
+    border: 1px solid rgb(209, 209, 209);
+    padding: 8px 15px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#sugg {
+    width: 400px;
+    border: none;
+    margin: 20px 0px;
+}
+
+#sugg td {
+    vertical-align: middle;
+    padding: 8px 15px;
+    font-size: 13px;
+    color: blue;
+}
+
+h1 {
+    padding-left: 15px;
+    margin-top: 50px ;
+    font-size: 20px;
+}
+
+#gooooogle {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#pages {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+#pages a {
+    padding: 10px;
+    color: blue;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    height: 80px;
+    margin-top: 15px;
+    border-top: 1px solid rgb(230, 230, 230);
+}
+
+footer ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 15px;
+    padding: 0;
+}
+
+#first_footer, #second_footer {
+    font-size: 14px;
+    margin-left: 170px;
+    padding-top: 15px;
+}
+
+#location{
+    font-size: 15px;
+    margin-right: 20px;
+}
+
