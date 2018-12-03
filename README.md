@@ -1,0 +1,1 @@
+Second HTML and CSS project with the odin project. Practicing css grid and html tags mostly.
